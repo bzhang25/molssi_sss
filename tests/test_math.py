@@ -14,7 +14,7 @@ def test_mult():
     assert ms.mult(5,2) == 10
 
 def test_divide():
-    assert ms.divide(5,2) == 2.5
+    assert ms.divide(5.0,2.0) == 2.5
 
 def test_subtract():
     assert ms.subtract(2,5) == -3
