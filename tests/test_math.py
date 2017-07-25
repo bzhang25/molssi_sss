@@ -21,6 +21,6 @@ def test_subtract():
     assert ms.subtract(5,2) == 3
 
 def test_mod():
-    assert ms.mod(2,7) == 2
-    assert ms.mod(3,3) == 0
-    assert ms.mod(7,2) == 1
+    assert ms.mod(2.0,7.0) == 2
+    assert ms.mod(3.0,3.0) == 0
+    assert ms.mod(7.0,2.0) == 1
