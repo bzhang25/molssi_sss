@@ -28,12 +28,18 @@ def subtract(a,b):
     return a - b
 
 def mod(a,b):
+    """
+    Function that return the modulus of two numbers (a%b) 
+    Takes arguments mod(a,b)
+    """
+    i = 1
     if float(a/b) - int(a/b) != 0.0:
         while True: 
             if b*i < a:
-                i++
+                i +=1
             else: 
                 return a - b * (i-1)
+                break
     elif b > a:
         return a
 
