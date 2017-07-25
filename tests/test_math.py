@@ -20,7 +20,7 @@ def test_subtract():
     assert ms.subtract(2,5) == -3
     assert ms.subtract(5,2) == 3
 
-def mod():
+def test_mod():
     assert ms.mod(2,7) == 2
     assert ms.mod(3,3) == 0
     assert ms.mod(7,2) == 1
